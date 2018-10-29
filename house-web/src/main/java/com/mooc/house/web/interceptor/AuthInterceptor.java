@@ -45,6 +45,9 @@ public class AuthInterceptor implements HandlerInterceptor{
 		
 	}
 
+	/*
+	execute after view rendered
+	 */
 	@Override
 	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
 			throws Exception {
